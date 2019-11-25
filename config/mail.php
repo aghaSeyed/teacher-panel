@@ -29,7 +29,7 @@ return [
     |
     */
 
-    'host' => env('MAIL_HOST', ' smtp.gmail.com'),
+    'host' => env('MAIL_HOST', 'mail.testico.ir'),
 
     /*
     |--------------------------------------------------------------------------
@@ -56,7 +56,7 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'hello@example.com'),
+        'address' => env('MAIL_FROM_ADDRESS', 'no-reply@testico.ir'),
         'name' => env('MAIL_FROM_NAME', 'Example'),
     ],
 
@@ -84,9 +84,9 @@ return [
     |
     */
 
-    'username' => env('mehdisetayande@gmail.com'),
+    'username' => env('no-reply@testico.ir'),
 
-    'password' => env('aaazzgtmngmail'),
+    'password' => env('M@hdi1378'),
 
     /*
     |--------------------------------------------------------------------------
