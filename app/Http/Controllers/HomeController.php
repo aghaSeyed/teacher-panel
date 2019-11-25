@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+//con
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use DB;
