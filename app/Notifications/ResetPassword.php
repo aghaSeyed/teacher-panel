@@ -42,9 +42,10 @@ class ResetPassword extends ResetPasswordNotification
     public function toMail($notifiable)
     {
         return (new MailMessage)
-                    ->line('The introduction to the notification.')
-                    ->action('Notification Action', url('/'))
-                    ->line('Thank you for using our application!');
+                    ->subject("درخواست تغییر رمز ورود")
+                    ->line('سلام، شما درخواست فراموشی رمز داده اید. جهت تغییر رمز بر روی دکه زیر کلیک کنید')
+                    ->action('تغییر رمز', url('/'))
+                    ->line('در صورتی که شما این درخواست را نداده اید این ایمیل را نادیده بگیرید');
     }
 
     /**
